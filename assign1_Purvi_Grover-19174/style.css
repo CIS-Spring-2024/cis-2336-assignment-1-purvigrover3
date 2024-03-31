@@ -1,0 +1,169 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(43, 49, 54);
+ 
+}
+
+
+
+.topnav{
+    background-color:steelblue;
+    overflow: hidden;
+}
+
+.topnav a{
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:steelblue;
+    color:white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topnav a:hover{
+    background-color: darkgray;
+    color:black
+}
+
+.topnav a.active{
+    background-color: cadetblue;
+    color: rgb(181, 181, 181);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+.left{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 35%;
+}
+
+p{
+    display: inline-block;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+
+.homepagelink {
+    display:flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepagelink a{
+    margin: auto;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:rgb(244, 42, 130);
+    color:white;
+    
+}
+
+.homepagelink a:hover{
+    background-color: darkgray;
+    color:black
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.biopic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 8px;
+
+}
+
+.left{
+    float: left;
+    margin: 5px;
+}
+
+h2{
+    text-shadow: 2px 2px 5px rgb(244, 42, 130);  /*to add shadow to text*/
+}
+.home_text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family:fantasy;
+}
+
+.text{
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.text1{
+    color:rgb(219, 210, 198);
+    text-align: center;
+    margin-top: 25px;
+    font-family:cursive;
+    font-size: 40px;
+}
+
+.text2{
+    color:antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.text3{
+    color:antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+  background-color: #7e7e7e;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.hometext1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.home2 figcaption{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+}
